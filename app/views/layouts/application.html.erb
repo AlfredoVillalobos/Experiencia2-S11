@@ -8,6 +8,11 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <nav class="navbar navbar-expand-lg bg-secondary rounded">
+      <%= link_to 'Student', root_path, class:'btn btn-ligth text-white' %>
+      <%= link_to 'Index', root_path, class:'btn btn-ligth text-white' %>
+      <%= link_to 'Landing', pages_landing_path, class:'btn btn-ligth text-white' %>
+    </nav>
   </head>
 
   <body>
